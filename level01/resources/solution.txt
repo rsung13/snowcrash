@@ -1,0 +1,4 @@
+1.	getent passwd
+2.	flag01 encrypted password: 42hDRfypTqqnw
+3.	install john the ripper decipher: https://github.com/openwall/john
+4.	/mnt/nfs/homes/rsung/Documents/personnel/john/run use ./john <password_file>

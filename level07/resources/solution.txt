@@ -1,0 +1,3 @@
+1.	use gdb, dogbolt or any decompiler
+2.	replace LOGNAME env variable to '$(getflag)'
+3.	LOGNAME='$(getflag)' ./level07

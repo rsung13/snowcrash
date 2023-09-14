@@ -1,0 +1,7 @@
+https://stackoverflow.com/questions/16986331/can-someone-explain-the-e-regex-modifier#:~:text=What%20e%20does%2C%20with%20an,a%20part%20of%20your%20program.
+
+1.	find code in level06.php file
+2.	looking for basics in regex PHP
+3.	looking for preg_replace() and /e modifier
+4.	create a file in tmp with the command [x ${`getflag`}]
+5.	run ./level06 <pathToFile> <anotherFile>

